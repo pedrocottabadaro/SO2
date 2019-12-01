@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1575208888 source:/home/pedro/Desktop/trabalhoSO/main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"myfs.h"
+	"vsf.h"
+	"inode.h"
+
+1575208882 /home/pedro/Desktop/trabalhoSO/include/myfs.h
+	"vsf.h"
+
+1575208854 /home/pedro/Desktop/trabalhoSO/include/vsf.h
+	"disk.h"
+
+1575208854 /home/pedro/Desktop/trabalhoSO/include/disk.h
+	<windows.h>
+	<time.h>
+
+1575208853 /home/pedro/Desktop/trabalhoSO/include/inode.h
+	"disk.h"
+
+1575208854 source:/home/pedro/Desktop/trabalhoSO/src/disk.c
+	<stdlib.h>
+	<stdio.h>
+	"disk.h"
+
+1575208854 source:/home/pedro/Desktop/trabalhoSO/src/inode.c
+	<stdlib.h>
+	"inode.h"
+	"util.h"
+
+1575208854 /home/pedro/Desktop/trabalhoSO/include/util.h
+
+1575208893 source:/home/pedro/Desktop/trabalhoSO/src/myfs.c
+	<stdio.h>
+	<stdlib.h>
+	"myfs.h"
+	"vsf.h"
+	"inode.h"
+	"util.h"
+
+1575208854 source:/home/pedro/Desktop/trabalhoSO/src/util.c
+	<stdlib.h>
+	"util.h"
+
